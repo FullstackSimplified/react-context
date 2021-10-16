@@ -1,24 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import { UserContextProvider } from "./context/UserContext";
+import Cprofile from "./components/Cprofile";
+import Fprofile from "./components/Fprofile";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <UserContextProvider>
+      <div className="App">
+        <Cprofile />
+        <hr />
+        <Fprofile />
+      </div>
+    </UserContextProvider>
   );
 }
 
