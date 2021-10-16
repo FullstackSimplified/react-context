@@ -2,7 +2,7 @@
 
 ### This repo shows how to use React Context API to manage app wide global states in React and avoid props drilling
 
-### Youtube Tutorial Link -
+### Youtube Tutorial Link - https://youtu.be/DQxQQydJg3k
 
 #### 📚 Materials/References:
 
